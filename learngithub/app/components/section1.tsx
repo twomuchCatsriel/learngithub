@@ -33,11 +33,11 @@ export default function Section1(){
         <SectionHeader id="part3">Del #3 - Github</SectionHeader>
         <span id="subpart1"><SubCategory>Seksjon #1 - Ditt første Repository</SubCategory></span>
                         
-        <Subheader>Denne seksjonen antar at du har lagget en GitHub bruker. Hvis du ikke har gjort det, så kan du gjøre det fra <Link href={"https://github.com"} className={url}>https://github.com</Link></Subheader>
+        <Subheader>Denne seksjonen antar at du har laget en GitHub bruker. Hvis du ikke har gjort det, så kan du gjøre det fra <Link href={"https://github.com"} className={url}>https://github.com</Link></Subheader>
                         
         <Paragraph newParagraph={true}>Når du logger inn, blir du møtt av GitHub-dashboardet. </Paragraph>
         <Paragraph>Det kan virke litt komplisert første gang, men vi skal fokusere på noen få viktige deler.</Paragraph>
-        <ExampleImage path="/dashboard.png" alt="dashboard" imageText="Bilde: GitHub Dashboardet (Din side kan til å se litt forskjellig ut, siden du ikke har noen Repository ennå. Ikke stress!)"></ExampleImage>
+        <ExampleImage path="/dashboard.png" alt="A Picture of the GitHub Dashboard." imageText="Bilde: GitHub Dashboardet (Din side kan til å se litt forskjellig ut, siden du ikke har noen Repository ennå. Ikke stress!)"></ExampleImage>
         
         <Paragraph>Et repository (eller "repo") er som en mappe for prosjektet ditt. </Paragraph>
         <Paragraph>Det inneholder filer, mapper og en commit-historie slik at du kan se endringer over tid. Du oppretter vanligvis ett repository per prosjekt.</Paragraph>
@@ -83,7 +83,7 @@ export default function Section1(){
         <ExampleImage path="/commitsButtonRed.png" alt="A Picture of the Commits button in a GitHub repository" imageText="Bilde: Commits-Knappen omringet i rødt."></ExampleImage>
         <ExampleImage path="/versionsHistory.png" alt="A Picture of the Commits History of a GitHub Repository" imageText="Bilde: Commits-versjonhistorikk."></ExampleImage>
 
-        <Paragraph>Hva har du lært så langt:</Paragraph>
+        <SubCategory>Hva har du lært så langt:</SubCategory>
         <ul className={ulist}>
             <li> <Paragraph>Hva GIT er</Paragraph> </li>
             <li> <Paragraph>Hva et Repository er</Paragraph> </li>
