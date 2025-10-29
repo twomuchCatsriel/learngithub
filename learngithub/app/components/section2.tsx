@@ -16,7 +16,7 @@ const ulist = "list-disc ml-10 mb-10";
 export default function Section2(){
     return (
         <div>
-            <span id="subpart2"><SubCategory>Seksjon #2 - Dypere om Repository</SubCategory></span>
+            <span id="DeepDive"><SubCategory>Seksjon #2 - Dypere om Repository</SubCategory></span>
             <Subheader>I denne seksjonen vil du lære om Branches, Pull Requests og hvordan man kan samarbeide gjennom GitHub.</Subheader>
 
             <Infobox>

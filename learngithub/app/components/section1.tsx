@@ -19,19 +19,19 @@ export default function Section1(){
         <Subheader>Derfor er det viktig for utviklere å bli kjent med GitHub.</Subheader>
         <Subheader>Men GitHub er komplisert, og vi ønsker derfor å gjøre det så enkelt som mulig å starte.</Subheader>
         
-        <SectionHeader id="part1">Del #1 - Forutsetninger</SectionHeader>
+        <SectionHeader id="PreRequisites">Del #1 - Forutsetninger</SectionHeader>
         <Paragraph>Alt du trenger for å følge denne guiden er en datamaskin med tilkobling til internett.</Paragraph>
         <Paragraph>Guiden er skrevet med fokus på Windows, men fungerer med andre operativsystemer også</Paragraph>
         
-        <SectionHeader id="part2">Del #2 - Hva er Git?</SectionHeader>
+        <SectionHeader id="Git">Del #2 - Hva er Git?</SectionHeader>
         <Paragraph>GitHub er bygget på Git, som er et versjonskontrollsystem.</Paragraph>
         <Paragraph>Enkelt forklart lar Git deg lagre og holde oversikt over endringer i kode.</Paragraph>
         <Paragraph>Hver gang du gjør en endring, kan du lagre en ny versjon (en "commit").</Paragraph>
         <Paragraph>Det betyr at du kan gå tilbake til tidligere versjoner, se hvem som endret hva, og følge utviklingen av prosjektet over tid. </Paragraph>
         <Paragraph>Jeg kommer til å forklare mer om Git senere i guiden.</Paragraph>
         
-        <SectionHeader id="part3">Del #3 - Github</SectionHeader>
-        <span id="subpart1"><SubCategory>Seksjon #1 - Ditt første Repository</SubCategory></span>
+        <SectionHeader id="GitHub">Del #3 - Github</SectionHeader>
+        <span id="FirstRepository"><SubCategory>Seksjon #1 - Ditt første Repository</SubCategory></span>
                         
         <Subheader>Denne seksjonen antar at du har laget en GitHub bruker. Hvis du ikke har gjort det, så kan du gjøre det fra <Link href={"https://github.com"} className={url}>https://github.com</Link></Subheader>
                         
