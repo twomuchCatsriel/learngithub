@@ -7,6 +7,7 @@ import SubCategory from "../components/subCategory";
 import Subheader from "../components/sectionSubheader";
 import ExampleImage from "../components/readingImage";
 import Infobox from "./infoBox";
+import HintComponent from "./hintComponent";
 
 const url = "text-red-200 hover:underline";
 const list = "list-decimal ml-10 mb-10";
@@ -46,6 +47,7 @@ export default function Section2(){
                 <Paragraph>Utfordring: Klarer du å lage en <span className="font-bold">Markdown</span> fil på egen hånd?</Paragraph>
                 <Paragraph>Bruk det du lærte i seksjon #1 for å lage en ny Markdown fil på denne nye grenen din.</Paragraph>
                 <Paragraph>Kall den hva du vil, og skriv en liten melding i den. (For eksempel "Hello World")</Paragraph>
+                <HintComponent>Hint: Trykk "Add File - Create new file", og gi filen et navn som slutter på .md</HintComponent>
             </Infobox>
         </div>
     )
