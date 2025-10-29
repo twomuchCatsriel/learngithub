@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import SectionHeader from "../components/sectionHeader";
 
 const subClass = "ml-5";
 
@@ -20,7 +21,7 @@ export default function Learn(){
             </div>
             
             <div className="sm:w-2/3 sm:w-4/5 h-screen p-5 bg-gray-700"> {/* Learn */}
-                <h1>test</h1>
+                <SectionHeader>hi</SectionHeader>
             </div>
 
         </div>
