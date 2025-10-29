@@ -7,9 +7,9 @@ import SubCategory from "../components/subCategory";
 import Subheader from "../components/sectionSubheader";
 import ExampleImage from "../components/readingImage";
 
-export const url = "text-red-200 hover:underline";
-export const list = "list-decimal ml-10 mb-10";
-export const ulist = "list-disc ml-10 mb-10";
+const url = "text-red-200 hover:underline";
+const list = "list-decimal ml-10 mb-10";
+const ulist = "list-disc ml-10 mb-10";
 
 export default function Section1(){
     return(
@@ -26,7 +26,7 @@ export default function Section1(){
         <SectionHeader id="part2">Del #2 - Hva er Git?</SectionHeader>
         <Paragraph>GitHub er bygget på Git, som er et versjonskontrollsystem.</Paragraph>
         <Paragraph>Enkelt forklart lar Git deg lagre og holde oversikt over endringer i kode.</Paragraph>
-        <Paragraph>Hver gang du gjør en endring, kan du lagre en ny versjon (en «commit»).</Paragraph>
+        <Paragraph>Hver gang du gjør en endring, kan du lagre en ny versjon (en "commit").</Paragraph>
         <Paragraph>Det betyr at du kan gå tilbake til tidligere versjoner, se hvem som endret hva, og følge utviklingen av prosjektet over tid. </Paragraph>
         <Paragraph>Jeg kommer til å forklare mer om Git senere i guiden.</Paragraph>
         
@@ -39,7 +39,7 @@ export default function Section1(){
         <Paragraph>Det kan virke litt komplisert første gang, men vi skal fokusere på noen få viktige deler.</Paragraph>
         <ExampleImage path="/dashboard.png" alt="dashboard" imageText="Bilde: GitHub Dashboardet (Din side kan til å se litt forskjellig ut, siden du ikke har noen Repository ennå. Ikke stress!)"></ExampleImage>
         
-        <Paragraph>Et repository (eller «repo») er som en mappe for prosjektet ditt. </Paragraph>
+        <Paragraph>Et repository (eller "repo") er som en mappe for prosjektet ditt. </Paragraph>
         <Paragraph>Det inneholder filer, mapper og en commit-historie slik at du kan se endringer over tid. Du oppretter vanligvis ett repository per prosjekt.</Paragraph>
         
         <SubCategory>La oss starte med å lage vårt første repository.</SubCategory>
@@ -48,8 +48,8 @@ export default function Section1(){
             <li> <Paragraph>Fra Dashboardet, velg <span className="font-bold">+-symbolet</span> som ligger øverst til høyre.</Paragraph> </li>
             <li> <Paragraph>Velg "New Repository" fra menyen</Paragraph></li>
             <li> <Paragraph>Du kommer til en side hvor du velger innstillinger for repoet. Sett navnet og beskrivelsen til hva du vil</Paragraph></li>
-            <li> <Paragraph>Skru på «Add README». Dette legger til en README tekstfil som du kan redigere, som  ofte brukes til å beskrive prosjektet ditt.</Paragraph></li>
-            <li> <Paragraph>La resten av innstillingene være som de er, og trykk «Create Repository».</Paragraph></li>
+            <li> <Paragraph>Skru på "Add README". Dette legger til en README tekstfil som du kan redigere, som  ofte brukes til å beskrive prosjektet ditt.</Paragraph></li>
+            <li> <Paragraph>La resten av innstillingene være som de er, og trykk "Create Repository".</Paragraph></li>
         </ol>
         
         <Paragraph>Nå har du laget ditt første GitHub repository. </Paragraph>
