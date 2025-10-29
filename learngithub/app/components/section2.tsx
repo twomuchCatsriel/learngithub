@@ -33,9 +33,9 @@ export default function Section2(){
             <ol className={list}>
                 <li> <Paragraph>Fra hovedsiden av repository, trykk "Branch"-knappen øverst på siden, ved siden av branch-navnet (som vanligvis står på "main"). </Paragraph> </li>
                 <li> <Paragraph>Du kommer nå til en oversikt over alle grenene i prosjektet. Du burde bare ha en gren som heter "main", altså hovedgrenen din. Trykk "New branch" som ligger øverst til høyre.</Paragraph> </li>
-                <li> <Paragraph>Gi grenen et gjenkjennelig navn, og trykk «Create new branch»</Paragraph> </li>
+                <li> <Paragraph>Gi grenen et gjenkjennelig navn, og trykk "Create new branch"</Paragraph> </li>
                 <li> 
-                    <Paragraph>Du har nå laget en ny gren. Gå tilbake til «{`<>`} Code» fanen, og velg den nye grenen du lagde fra dropdown menyen</Paragraph>
+                    <Paragraph>Du har nå laget en ny gren. Gå tilbake til "{`<>`} Code" fanen, og velg den nye grenen du lagde fra dropdown menyen</Paragraph>
                     <Paragraph>(Ved siden av "Branches" knappen som du trykket på steg 1.)</Paragraph>
                 </li>
             </ol>
@@ -61,12 +61,12 @@ export default function Section2(){
             <SubCategory>Så la oss lage en Pull Request</SubCategory>
             <ol className={list}>
                 <li> <Paragraph>Pass på at du er på <span className="font-bold">main</span> grenen.</Paragraph> </li>
-                <li> <Paragraph>Det burde være en gul melding som forteller deg om at grenen har blitt pushet til nylig. Trykk «Compare & Pull request», til høyre i denne meldingen.</Paragraph> </li>
+                <li> <Paragraph>Det burde være en gul melding som forteller deg om at grenen har blitt pushet til nylig. Trykk "Compare & Pull request", til høyre i denne meldingen.</Paragraph> </li>
                 <li> <Paragraph>Gi Pull Requesten et navn. Navnet burde beskrive forandringene som ble gjort i denne grenen.</Paragraph> </li>
                 <li> <Paragraph>Skriv en kort beskrivelse av hva du forandret</Paragraph> </li>
-                <li> <Paragraph>Trykk «Create pull request»</Paragraph> </li>
-                <li> <Paragraph>Trykk «Merge Pull Request»</Paragraph> </li>
-                <li> <Paragraph>Her får du se commit-navnet og beskrivelsen. Trykk «Confirm merge».</Paragraph> </li>
+                <li> <Paragraph>Trykk "Create pull request"</Paragraph> </li>
+                <li> <Paragraph>Trykk "Merge Pull Request"</Paragraph> </li>
+                <li> <Paragraph>Her får du se commit-navnet og beskrivelsen. Trykk "Confirm merge".</Paragraph> </li>
             </ol>
 
             <Paragraph>Nå har du slått sammen begge grenene, og main-grenen er oppdatert.</Paragraph>
@@ -74,8 +74,8 @@ export default function Section2(){
             <Paragraph>Det er trygt å slette en branch etter merging, fordi endringene ligger trygt i main.</Paragraph>
 
             <ol className={list}>
-                <li className="mt-10"><Paragraph>Gå tilbake til «{`<>`} Code» skjermen, og trykk «Branch» igjen.</Paragraph> </li>
-                <li> <Paragraph>Trykk søppelkassen på høyre side av grenen («Delete Branch»)</Paragraph></li>
+                <li className="mt-10"><Paragraph>Gå tilbake til "{`<>`} Code" skjermen, og trykk "Branch" igjen.</Paragraph> </li>
+                <li> <Paragraph>Trykk søppelkassen på høyre side av grenen ("Delete Branch")</Paragraph></li>
             </ol>
 
             <SubCategory>NB: Bare slett grenen hvis du er helt ferdig med den. </SubCategory>
@@ -85,7 +85,7 @@ export default function Section2(){
             <Paragraph>Du har nå laget din første pull request! Bra jobbet!</Paragraph>
 
             <Paragraph newParagraph={true}>En ting du burde vite er at <span className="font-bold">Pull Requests</span>  brukes ikke bare for å slå grener sammen. </Paragraph>
-            <Paragraph>GitHub brukes ofte for å samarbeide med andre om kode. (Kalt «Open Source»).</Paragraph>
+            <Paragraph>GitHub brukes ofte for å samarbeide med andre om kode. (Kalt "Open Source").</Paragraph>
             <Paragraph newParagraph={true}>Andre folk kan ta koden din, og lage en <span className="font-bold">Fork</span>, altså en personlig kopi av prosjektet som ligger i deres egen GitHub-konto. </Paragraph>
             <Paragraph>På <span className="font-bold">Forken</span> kan de jobbe fritt uten å påvirke originalen.</Paragraph>
             <Paragraph>Deretter kan de lage en Pull Request for å få endringene som de har laget slått sammen med prosjektet. </Paragraph>

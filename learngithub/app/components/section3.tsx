@@ -33,7 +33,7 @@ export default function Section3(){
                 <li><Paragraph>Gå til File - Clone Repository</Paragraph></li>
                 <li><Paragraph>Velg Repoet du lagde tidligere</Paragraph></li>
                 <li><Paragraph>Velg Filstien hvor du vil at repoet skal være</Paragraph></li>
-                <li><Paragraph>Trykk «Clone»</Paragraph></li>
+                <li><Paragraph>Trykk "Clone"</Paragraph></li>
             </ol>
 
             <SubCategory>NB: Filstyringsprogrammer som OneDrive kan skape problemer med Git.  Du burde derfor passe på at repoet blir lagret utenfor OneDrive eller likende programmer, for eksempel direkte på C: driven.</SubCategory>
@@ -57,20 +57,20 @@ export default function Section3(){
             
             <SubCategory>Commit fra GitHub Desktop</SubCategory>
             <ol className={list}>
-                <li> <Paragraph>Trykk «Show in Explorer» eller «Open in Visual Studio Code»</Paragraph> </li>
+                <li> <Paragraph>Trykk "Show in Explorer" eller "Open in Visual Studio Code"</Paragraph> </li>
                 <li> <Paragraph>Slett en av filene på repoet, og åpne Desktop igjen</Paragraph> </li>
                 <li> <Paragraph>Nå burde du se forandringene du gjorde.</Paragraph> </li>
                 <li> <Paragraph>Gi commiten et navn, og Commit den</Paragraph> </li>
-                <li> <Paragraph>Trykk «Push Origin» for å dytte endringene over til GitHub</Paragraph> </li>
+                <li> <Paragraph>Trykk "Push Origin" for å dytte endringene over til GitHub</Paragraph> </li>
             </ol>
 
             <ExampleImage path="/desktopPush.gif" alt="A Gif showcasing how to Push from GitHub Desktop to GitHub" imageText="Bilde / GIF: Gjennomgang av hvordan å gjøre commits fra Desktop appen."></ExampleImage>
             <Paragraph>Nå har du brukt GitHub desktop for å commite endringene gjort lokalt, og pushet dem til GitHub.</Paragraph>
             <Paragraph newParagraph={true}>Noen ganger kan det lokale repoet falle bak GitHub repoet. Dette skjer når det er gjort endringer på GitHub repoet.</Paragraph>
-            <Paragraph>For å fikse dette, så trykker du «Fetch Origin».</Paragraph>
-            <Paragraph>«Fetch Origin» henter inn den nyeste versjonen av repoet, og oppdaterer det lokale repoet med alt som er nytt.</Paragraph>
+            <Paragraph>For å fikse dette, så trykker du "Fetch Origin".</Paragraph>
+            <Paragraph>"Fetch Origin" henter inn den nyeste versjonen av repoet, og oppdaterer det lokale repoet med alt som er nytt.</Paragraph>
             
-            <SubCategory>NB: GitHub Desktop fetcher ikke automatisk. Du burde derfor trykke «Fetch Origin» hver gang du åpner et prosjekt, i tilfelle at noen endringer har blitt gjort. </SubCategory>
+            <SubCategory>NB: GitHub Desktop fetcher ikke automatisk. Du burde derfor trykke "Fetch Origin" hver gang du åpner et prosjekt, i tilfelle at noen endringer har blitt gjort. </SubCategory>
 
             <SubCategory>Hva har du lært så langt:</SubCategory>
             <ul className={ulist}>
@@ -78,7 +78,7 @@ export default function Section3(){
                 <li> <Paragraph>Hvordan å klone et repo</Paragraph> </li>
                 <li> <Paragraph>Hvordan å gjøre endringer i et repo</Paragraph> </li>
                 <li> <Paragraph>Hvordan man bruker Commit og Push fra Desktop Appen</Paragraph> </li>
-                <li> <Paragraph>Hvordan man bruker «Fetch Origin» effektivt.</Paragraph> </li>
+                <li> <Paragraph>Hvordan man bruker "Fetch Origin" effektivt.</Paragraph> </li>
             </ul>
             <Paragraph>Bra jobbet!</Paragraph>
        </div>
